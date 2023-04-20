@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(236, 248, 255);
+}
+.nav{
+    display: inline-block;
+    background: rgb(15, 140, 243);
+    color: azure;
+    padding: 10px 10px;
+    text-decoration: none ;
+    margin: 10px;
+}
+.nav:hover{
+    background:rgb(101, 164, 175)
+}
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+nav{
+    background:  rgb(187, 212, 228);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+#contemItemCarrusel{
+    border: 1px solid black;
+}
+
+.itemCarrusel{
+    border: 1px solid black;
+    height: 200px;
+    position: relative;
+    background-color: aqua;
+}
+.tarjetasCarrusel{
+    height: 100%;
+}
+.flechasCarrusel{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+}
+#tarjetaCarrusel-1{
+    background-color: rgb(166, 112, 216);
+}
+
+#tarjetaCarrusel-2{
+    background-color: rgb(91, 113, 235);
+}
+
+#tarjetaCarrusel-3{
+    background-color: rgb(25, 214, 151);
+}
