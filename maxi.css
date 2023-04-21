@@ -22,22 +22,36 @@ nav{
     padding: 10px;
     display: flex;
     justify-content: flex-end;
+}
+
+#conteItemCarrusel{
+
+    height: 200px;
+    overflow: hidden;
 
 }
-#contemItemCarrusel{
-    border: 1px solid black;
+
+.imgCarrusel{
+    height: 100%;
+    width: 100%;
+    
 }
+
 
 .itemCarrusel{
-    border: 1px solid black;
+
     height: 200px;
     position: relative;
-    background-color: aqua;
+
 }
-.tarjetasCarrusel{
+
+.tarjetaCarrusel{
+
     height: 100%;
 }
+
 .flechasCarrusel{
+
     height: 100%;
     position: absolute;
     top: 0;
@@ -47,14 +61,7 @@ nav{
     justify-content: space-between;
     padding: 1px;
 }
-#tarjetaCarrusel-1{
-    background-color: rgb(166, 112, 216);
-}
 
-#tarjetaCarrusel-2{
-    background-color: rgb(91, 113, 235);
-}
-
-#tarjetaCarrusel-3{
-    background-color: rgb(25, 214, 151);
+a{
+    text-decoration: none;
 }
