@@ -11,6 +11,7 @@ body{
     font-style: italic;
     border-radius: 5px;
 }
+
 .nav:hover{
     background:rgb(16, 116, 197)
 }
@@ -38,6 +39,7 @@ nav{
     background-color: rgb(0, 89, 255);
 }
 
+<<<<<<< HEAD
 
 
 .navbar{    
@@ -172,3 +174,76 @@ a{
 .sectionservicios{
     
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+    height: 47%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+div.gallery {
+    margin: 5px;
+    border: 3px solid #e2d2d2;
+    float: left;
+    width: 310px;
+    align-items: center;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+>>>>>>> 2b998c505e7b1de2bf543a9c8680b86e6ab24d2b
