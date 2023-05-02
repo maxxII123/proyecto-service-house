@@ -39,8 +39,6 @@ nav{
     background-color: rgb(0, 89, 255);
 }
 
-<<<<<<< HEAD
-
 
 .navbar{    
     overflow: hidden;
@@ -171,10 +169,10 @@ a{
     padding-left: 800px;
 }
 
-.sectionservicios{
+
     
-}
-=======
+
+
 * {
     margin: 0;
     padding: 0;
@@ -246,4 +244,4 @@ div.gallery {
     padding: 15px;
     text-align: center;
   }
->>>>>>> 2b998c505e7b1de2bf543a9c8680b86e6ab24d2b
+
