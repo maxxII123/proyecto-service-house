@@ -66,3 +66,12 @@ nav{
     text-align: center;
 
 }
+
+.contenedor12{
+    display: flex;
+    justify-content: center;
+}
+
+.img1111{
+    height: 300px;
+}
