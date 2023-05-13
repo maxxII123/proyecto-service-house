@@ -25,31 +25,4 @@ body{
 .logo1{
     width: 150px;
 }
-
-
-
-.contenedorservicio{
-    display: flex;
-    justify-content: center;
-}
-
-.sectiionimgservicio{
-    padding: px;
-    height: 500px;
-    display: flex;
-}
-
-.tituloservicio{
-    color: rgb(43, 43, 163);
-    text-align: center;
-
-}
-
-.contenedor12{
-    display: flex;
-    justify-content: center;
-}
-
-.img1111{
-    height: 300px;
-}
+    
