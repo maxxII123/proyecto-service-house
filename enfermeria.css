@@ -25,4 +25,36 @@ body{
 .logo1{
     width: 150px;
 }
+
+.enfermera2{
+    display: flex;
+    padding-left: 350px;
+    margin-top: 80px;
+}
+
+.seccionnombres{
+    margin-bottom: -500;
+}
+.opacity-75{
+    margin-left: 500px;
+}
+
+#grid{
+    display: grid;
+    height: 100px;
+    grid-template:repeat(4,1fr) / 50px 100px;
+}
+
+#item1{
+    background-color: rgb(7, 80, 55);
+    grid-area: 2/2/auto/span 3;
     
+}
+#item2{
+    background-color: black;
+    padding: 50px;
+    
+}
+#item3{
+    background-color: blueviolet;
+}
