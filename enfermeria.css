@@ -38,23 +38,19 @@ body{
 .opacity-75{
     margin-left: 500px;
 }
-
-#grid{
-    display: grid;
-    height: 100px;
-    grid-template:repeat(4,1fr) / 50px 100px;
+.imgdirectorio{
+    margin-top: 100px;
+    width: 100%;
 }
 
-#item1{
-    background-color: rgb(7, 80, 55);
-    grid-area: 2/2/auto/span 3;
-    
+.form-select{
+margin: 50px;
+margin-left: -10px;
+padding-left: -50px;
 }
-#item2{
-    background-color: black;
-    padding: 50px;
-    
+
+.card-img-top{
+    height: 275px;
 }
-#item3{
-    background-color: blueviolet;
-}
+
+
