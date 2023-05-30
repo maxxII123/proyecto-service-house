@@ -142,17 +142,16 @@ body{
 }
 .imagen2{
     margin: 80px;
-    right: 50px;
+    right: 30px;
     width: 500px;
-    margin-top: -260px;
-    
-    
+    margin-top: -430px;
+    margin-right: 100px;
 
 }
 .titulo{
     float: right;
     margin-left: 10px;
-    margin-right: 100px;
+    margin-right: 150px;
     margin-top: 60px;
     color: #082e6e;
 }
@@ -160,10 +159,21 @@ body{
 
 .textosec2{
     float: right;
-    margin-left: 700px;
+    margin-left: 800px;
     margin-bottom: 10px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.textosec22{
+    float: right;
+    margin-left: 900px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    margin-right: 100px
 
 }
+
 .titulo3rasecction{
     float: inline-start;
     margin-left: 400px;
@@ -171,9 +181,6 @@ body{
     margin-top: 60px;
     color: #082e6e;
 }
-
-
-
 div.gallery {
     margin: 63px;
     border: 3px solid #e2d2d2;
@@ -211,5 +218,8 @@ div.desc {
 }
 .img-formulario{
     margin-left: 800px;
+}
+.m2sec{
+    background-color: rgb(245, 244, 244);
 }
 
