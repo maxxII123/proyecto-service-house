@@ -176,29 +176,17 @@ body{
 
 .titulo3rasecction{
     float: inline-start;
-    margin-left: 400px;
+    margin-left: 460px;
     margin-right: 100px;
     margin-top: 60px;
     color: #082e6e;
 }
-div.gallery {
-    margin: 80px;
-    border: 3px solid #e2d2d2;
-    float: left;
-    width: 310px;
-    align-items: center;
+.texsec2{
+    margin-top: 50px;
+    margin-left: 460px;
+    margin-bottom: 100px;
 }
-div.gallery:hover {
-    border: 1px solid #777;
-}
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
+
 
 .titulo34{
     color: #082e6e;
@@ -211,10 +199,13 @@ div.desc {
 .contactanos{
     margin-right: 800px;
     color: #082e6e;
+    font-size: 60px;
 }
 .contactanos-parrafo{
     color: #0a3888;
-    font-size: x-large;
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 .img-formulario{
     margin-left: 800px;
@@ -224,4 +215,18 @@ div.desc {
 }
 .contenedor-formularios{
     padding: 100px;
+}
+.imgformulario{
+    margin-top: -320px;
+}
+.target1{
+    margin-left: 100px;
+}
+.target2{
+    margin-left: 600px;
+    margin-top: -320px;
+}
+.target3{
+    margin-left: 1100px;
+    margin-top: -330px;
 }
