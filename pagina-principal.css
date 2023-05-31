@@ -182,7 +182,7 @@ body{
     color: #082e6e;
 }
 div.gallery {
-    margin: 63px;
+    margin: 80px;
     border: 3px solid #e2d2d2;
     float: left;
     width: 310px;
@@ -222,4 +222,6 @@ div.desc {
 .m2sec{
     background-color: rgb(245, 244, 244);
 }
-
+.contenedor-formularios{
+    padding: 100px;
+}
