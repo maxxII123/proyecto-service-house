@@ -150,10 +150,10 @@ body{
     }
 }
 .imagen2{
-    margin: 80px;
+    margin-left: 120px;
     right: 50px;
     width: 500px;
-    margin-top: -260px;
+    margin-top: -280px;
     
     
 
@@ -162,7 +162,7 @@ body{
     float: right;
     margin-left: 10px;
     margin-right: 100px;
-    margin-top: 60px;
+    margin-top: 200px;
     color: #082e6e;
 }
 
@@ -171,6 +171,7 @@ body{
     float: right;
     margin-left: 700px;
     margin-bottom: 10px;
+    margin-top: 0px;
 
 }
 .titulo3rasecction{
