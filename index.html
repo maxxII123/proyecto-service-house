@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <link rel="icon" href="img/My project-2.ico">
   <title>Service House</title>
   <link rel="stylesheet" href="pagina-principal.css">
   <script src="https://kit.fontawesome.com/4c074bd5a8.js" crossorigin="anonymous"></script>
@@ -33,7 +34,7 @@
             <li><a class="dropdown-item" href="mecanica.html">Mecanica Automotriz</a></li>
           </ul>
         </div>
-        <a href="#" class="nav-link">Testimonios</a>
+        <a href="testimonio.html" class="nav-link">Testimonios</a>
         <a href="#" class="nav-link">Ayuda</a>
         <a href="#" class="nav-link1 ">PIDE TU HORA</a>
       </div>
@@ -68,7 +69,9 @@
             servicios <br> a domicilio sin que tengas que hacer filas de horas para acceder a un servicio <br> como este
             en
             cualquier otro lugar. </p>
-          <p class="textosec22">¡Recuerda! que todos nuestros profesionales son acreditados</p>
+          <p class="textosec22"><b>¡RECUERDA! que todos nuestros profesionales son acreditados . No es necesario que el paciente esté muy afectado para solicitar un médico a domicilio o tener un problema grave de electricidad , una detección temprana de un problema es fundamental para tener una solucion .</b></p>
+          <button class="boton22">Contactar</button>
+          <button class="boton222">Contactar</button>
           <img class="imagen2" src="img/puerta.webp">
         </div>
       </div>
@@ -81,9 +84,9 @@
           que necesitas con profesionales acreditados,
           que se ocuparán oportunamente de tus servicios , <br> ademas ofrecemos servicios de calidad a la puerta de tu
           casa </p>
-        
-          <div class="target1">
-            <div class="card" style="width: 18rem;">
+
+        <div class="target1">
+          <div class="card" style="width: 18rem;">
             <img src="img/alexis.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Mecanica automotriz</h5>
@@ -91,43 +94,48 @@
               <a href="mecanica.html" class="btn btn-primary">ir a servicio</a>
             </div>
           </div>
-          </div>
-          <div class="target2">
-            <div class="card" style="width: 18rem;">
-              <img src="img/luisa.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Enfermeria</h5>
-                <p class="card-text"></p>
-                <a href="Enfermeria.html" class="btn btn-primary">ir a servicio</a>
-              </div>
-            </div>
-          </div>
-          <div class="target3">
-            <div class="card" style="width: 18rem;">
-              <img src="img/arturo.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Electricidad</h5>
-                <p class="card-text"></p>
-                <a href="electricidad.html" class="btn btn-primary">ir a servicio </a>
-              </div>
+        </div>
+        <div class="target2">
+          <div class="card" style="width: 18rem;">
+            <img src="img/luisa.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Enfermeria</h5>
+              <p class="card-text"></p>
+              <a href="Enfermeria.html" class="btn btn-primary">ir a servicio</a>
             </div>
           </div>
         </div>
-        <div class="shadow p-3 mb-5 bg-body-tertiary rounded"></div>
+        <div class="target3">
+          <div class="card" style="width: 18rem;">
+            <img src="img/arturo.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Electricidad</h5>
+              <p class="card-text"></p>
+              <a href="electricidad.html" class="btn btn-primary">ir a servicio </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+      </div>
   </article>
   <section>
     <div>
       <div class="contactanos1">
-        <h1 class="contactanos">¡CONTÁCTANOS!+56 9 xxxx xxxx</h1>
+        <h1 class="contactanos">¡CONTÁCTANOS!+56 9 1234 5678</h1>
         <p class="contactanos-parrafo">Un profesional ira a tu domicilio</p>
       </div>
       <div class="contenedor-formularios">
-        <form>
+        <form class="formulario">
           <label for="fname">Nombre:</label><br>
           <input type="text" id="fname" name="fname"><br>
           <label for="lname">Apellido:</label><br>
+          <input type="text" id="lname" name="lname">
+        </form>
+        <form>
+          <label for="fname">telefono</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">comuna</label><br>
           <input type="text" id="lname" name="lname">
         </form>
       </div>
@@ -135,6 +143,75 @@
         <img class="imgformulario" src="img/foto-formulario.webp" alt="">
       </div>
       <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+      </div>
+      <div class="clase-preguntasfrecuentes">
+        <h1>Preguntas frecuentes </h1>
+      </div>
+      <div>
+        <ol class="list-group list-group-numbered">
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">¿En que comunas llegan nuestros servicios ?</div>
+              - Nuestros servicios abarcan todas las comunas de la región metropolitana.
+            </div>
+            <span class="badge bg-primary rounded-pill">1</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">¿Atienen los fines de semana?</div>
+              - Si, a tendemos todos los días de la semana incluidos los feriados.
+            </div>
+            <span class="badge bg-primary rounded-pill">2</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">¿Yo como usuario particular puedo inscribirme para trabajar dentro de la plataforma?
+              </div>
+              Claro que si, pero antes debes tener ciertos requisitos, si te interesa puedes enviar un correo a
+              servicehouse.servicios@gmail.com
+            </div>
+            <span class="badge bg-primary rounded-pill">3</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">¿Los enfermeros aplican tratamientos inyectables o suero?</div>
+              -Si, nuestro equipo está completamente capacitado para colocar tratamientos inyectables para control de
+              dolor , Antibióticos, cuidados paliativos y suero para hidratación.
+            </div>
+            <span class="badge bg-primary rounded-pill">5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Que tipo de electricistas se encuentran en la plataforma?</div>
+              -En nuestra plataforma puedes encontrar
+              Maestros electricistas ,
+              Eléctricos residenciales ,
+              Eléctricos comerciales.
+            </div>
+            <span class="badge bg-primary rounded-pill">6</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">¿Si contrató el servicio de mecánica automotriz , el mecánico puede llevar mi vehículo a la revisión técnica anual ?</div>
+              Lamentanos comentarle que no, ya que el profesional irá especialmente a revisar el vehículo a su domicilio y no puede hacer trámites con este.
+            </div>
+            <span class="badge bg-primary rounded-pill">7</span>
+          </li>
+        </ol>
+        </ol>
+      </div>
+      <div>
+        <div class="horarios">
+          <h1 class="horarios-titulo">Horarios de atencion de service house</h1>
+          <h3 class="parrafo-horarios"><em>Lunes a Viernes de 8:00 A.m a 20:00 P.m </em></h3>
+          <h3 class="parrafo-horario"><em>Sabados y domingos de 12:00 A.m a 16:00 P.m</em></h3>
+        </div>
+        <div class="color-contenedor">
+          <img class="logo-horarios" src="img/My project-1.png" alt="">
+          <p class="parrafo-texto-informacion"></p>
+        </div>
+      </div>
+      <div>
       </div>
   </section>
 </body>

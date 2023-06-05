@@ -144,8 +144,10 @@ body{
     margin: 80px;
     right: 30px;
     width: 500px;
-    margin-top: -430px;
+    margin-left: 170px;
+    margin-top: -495px;
     margin-right: 100px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 
 }
 .titulo{
@@ -155,8 +157,22 @@ body{
     margin-top: 60px;
     color: #082e6e;
 }
-
-
+.boton22{
+    float: right    ;
+    color: #2c57a0;
+    background-color: #ffffff;
+    width: 130px;
+    height: 50px;
+}
+.boton222{
+    float: left;
+    color: #2c57a0;
+    background-color: #ffffff;
+    width: 130px;
+    height: 50px;
+    margin-left: 880px;
+    margin-top: -100px;
+}
 .textosec2{
     float: right;
     margin-left: 800px;
@@ -170,8 +186,15 @@ body{
     margin-left: 900px;
     margin-bottom: 10px;
     margin-top: 70px;
-    margin-right: 100px
+    margin-right: 150px
 
+}
+.boton22{
+    float: right;
+    margin-left: 900px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    margin-right: 150px
 }
 
 .titulo3rasecction{
@@ -211,10 +234,11 @@ body{
     margin-left: 800px;
 }
 .m2sec{
-    background-color: rgb(245, 244, 244);
+    background-color: rgb(241, 241, 241);
 }
 .contenedor-formularios{
     padding: 100px;
+    
 }
 .imgformulario{
     margin-top: -320px;
@@ -230,3 +254,54 @@ body{
     margin-left: 1100px;
     margin-top: -330px;
 }
+.clase-preguntasfrecuentes{
+    color: #2c57a0;
+    margin-left: 500px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.horarios {
+    margin-left: 220px;
+    margin-top: -190px;
+    margin-bottom: 10px;
+    width: 1100px;
+    height: 250px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #3a578a;
+    display: flex;
+    position: absolute;
+
+}
+
+.color-contenedor {
+    margin-top: 300px;
+    background-color: rgba(212, 207, 201, 0.363);
+    height: 600px;
+
+}
+
+.horarios-titulo {
+    color: rgb(252, 252, 252);
+    padding-top: 30px;
+    padding-left: 230px;
+    position: absolute;
+}
+
+.parrafo-horarios {
+    color: rgb(222, 227, 231);
+    padding-top: 120px;
+    margin-left: 300px;
+    position: absolute;
+}
+.parrafo-horario{
+    color: rgb(222, 227, 231);
+    padding-top: 170px;
+    margin-left: 275px;
+    position: absolute;
+}
+.logo-horarios{
+    position: relative;
+    width: 300px;
+    padding-bottom: 300px;
+}
+
