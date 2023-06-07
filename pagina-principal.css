@@ -32,12 +32,9 @@ body{
     width: 100%; /* Full width */
     z-index: 999;
 }
+/*fin navbar*/
 
-
-/*Carrusel*/
-
-
-
+/*Carrusel inicio*/
 .overlaytext{
     margin-top: -400px; /*-400px es un valor arbitrario*/
     color: azure;
@@ -140,7 +137,10 @@ body{
         margin-left: 0;
     }
 }
+/*fin de carrusel*/
 
+
+/*inicio segunda seccion*/
 #div-hero{
     display: flex;
 }
