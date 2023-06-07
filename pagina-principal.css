@@ -140,61 +140,65 @@ body{
         margin-left: 0;
     }
 }
+
+#div-hero{
+    display: flex;
+}
+
+#div-image-hero{
+    width: 40%;
+}
+
+#div-hero-text{
+    width: 40%;
+}
+
+#hero-button-div{
+    display: flex;
+}
+
 .imagen2{
     margin: 80px;
-    right: 30px;
     width: 500px;
     margin-left: 170px;
-    margin-top: -495px;
-    margin-right: 100px;
+    margin-top: -40px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 
 }
 .titulo{
-    float: right;
     margin-left: 10px;
     margin-right: 150px;
-    margin-top: 60px;
+    margin-top: 10px;
     color: #082e6e;
 }
 .boton22{
-    float: right    ;
-    color: #2c57a0;
+    color: #1148a7;
     background-color: #ffffff;
+    transition: transform .2s;
     width: 130px;
     height: 50px;
+    border: 1px black;
+    text-align: center;
+    box-shadow:0px 0px 5px rgba(0, 0, 0, 0.5);
 }
-.boton222{
-    float: left;
-    color: #2c57a0;
-    background-color: #ffffff;
-    width: 130px;
-    height: 50px;
-    margin-left: 880px;
-    margin-top: -100px;
+.boton22:hover{
+    transform: scale(1.1);
+    box-shadow:0px 0px 8px rgba(0, 0, 0, 0.5);
 }
+
+
+
 .textosec2{
-    float: right;
-    margin-left: 800px;
     margin-bottom: 10px;
     margin-top: 50px;
     margin-right: 150px;
 }
 
 .textosec22{
-    float: right;
-    margin-left: 900px;
     margin-bottom: 10px;
-    margin-top: 70px;
+    margin-top: 40px;
     margin-right: 150px
 
-}
-.boton22{
-    float: right;
-    margin-left: 900px;
-    margin-bottom: 10px;
-    margin-top: 70px;
-    margin-right: 150px
 }
 
 .titulo3rasecction{
