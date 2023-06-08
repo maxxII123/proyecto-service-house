@@ -144,26 +144,24 @@ body{
 #div-hero{
     display: flex;
 }
-
 #div-image-hero{
     width: 40%;
 }
-
 #div-hero-text{
     width: 40%;
 }
-
 #hero-button-div{
     display: flex;
 }
-
+.m2sec{
+    background-color: rgb(241, 241, 241);
+}
 .imagen2{
     margin: 80px;
     width: 500px;
     margin-left: 170px;
     margin-top: -40px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-
 }
 .titulo{
     margin-left: 10px;
@@ -185,21 +183,22 @@ body{
     transform: scale(1.1);
     box-shadow:0px 0px 8px rgba(0, 0, 0, 0.5);
 }
-
-
-
 .textosec2{
     margin-bottom: 10px;
     margin-top: 50px;
     margin-right: 150px;
 }
-
 .textosec22{
     margin-bottom: 10px;
     margin-top: 40px;
     margin-right: 150px
-
 }
+
+
+/*fin 2da seccion*/
+
+
+/*inico tercera seccion (tarjetas)*/
 
 .titulo3rasecction{
     float: inline-start;
@@ -213,8 +212,22 @@ body{
     margin-left: 460px;
     margin-bottom: 100px;
 }
+.target1{
+    margin-left: 100px;
+}
+.target2{
+    margin-left: 600px;
+    margin-top: -320px;
+}
+.target3{
+    margin-left: 1100px;
+    margin-top: -330px;
+}
+
+/*fin 3ra seccion*/
 
 
+/*inicio 4ta seccion (formulario)*/
 .titulo34{
     color: #082e6e;
     
@@ -237,9 +250,7 @@ body{
 .img-formulario{
     margin-left: 800px;
 }
-.m2sec{
-    background-color: rgb(241, 241, 241);
-}
+
 .contenedor-formularios{
     padding: 100px;
     
@@ -247,23 +258,23 @@ body{
 .imgformulario{
     margin-top: -320px;
 }
-.target1{
-    margin-left: 100px;
-}
-.target2{
-    margin-left: 600px;
-    margin-top: -320px;
-}
-.target3{
-    margin-left: 1100px;
-    margin-top: -330px;
-}
+
+/*fin 4ta seccion (formularios)*/
+
+
+/*inico seccion pregunatas frecuentes */
+
 .clase-preguntasfrecuentes{
     color: #2c57a0;
     margin-left: 500px;
     margin-top: 100px;
     margin-bottom: 40px;
 }
+
+/*fin preguntas frecuentes*/
+
+
+/*HORARIOS*/
 .horarios {
     margin-left: 220px;
     margin-top: -190px;
@@ -309,3 +320,4 @@ body{
     padding-bottom: 300px;
 }
 
+/*fin HORARIOS*/

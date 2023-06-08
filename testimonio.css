@@ -1,0 +1,48 @@
+/*navbar primera seckcion*/
+body{
+    background-color: rgba(240, 240, 240, 0.616);
+}
+#nav-main{
+    height: 125px;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: end;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    text-decoration: none ;
+    margin: 4px;
+    font-style: italic;
+    border-radius: 5px;
+
+}
+.nav-link1{
+    background-color: #082e6e;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 15px;
+}
+.logo1{
+    width: 150px;
+}
+/*fin de primera seccion*/
+
+
+
+/*primera seccion formularios*/
+
+.img-testimonios{
+    width: 100%;
+}
+
+.titulo-testimonios{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #082e6e
+}
+.fto-mecanico-circular{
+    border-radius: 50%;
+    width: 100px;
+}
