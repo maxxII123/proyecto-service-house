@@ -212,17 +212,12 @@ body{
     margin-left: 460px;
     margin-bottom: 100px;
 }
-.target1{
-    margin-left: 100px;
+.tarjet-hero{
+    display: flex;
+    justify-content: space-evenly;
 }
-.target2{
-    margin-left: 600px;
-    margin-top: -320px;
-}
-.target3{
-    margin-left: 1100px;
-    margin-top: -330px;
-}
+
+
 
 /*fin 3ra seccion*/
 

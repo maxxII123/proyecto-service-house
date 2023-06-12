@@ -2,7 +2,7 @@ body{
     background-color: rgba(240, 240, 240, 0.616);
 }
 #nav-main{
-    height: 100px;
+    height: 125px;
 }
 
 .nav-link{
@@ -24,8 +24,4 @@ body{
 }
 .logo1{
     width: 150px;
-}
-
-.col{
-    width: 100px;
 }
