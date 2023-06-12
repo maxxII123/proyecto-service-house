@@ -12,15 +12,15 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="nav-main">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-brand">
-                    <img class="logo1" src="img/My project-1.png" alt="">
-                </div>
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="nav-main">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-brand">
+          <img class="logo1" src="img/My project-1.png" alt="">
         </div>
+      </div>
       <div class="d-flex">
         <a href="#" class="nav-link">Inicio</a>
         <div class="nav-item dropdown" data-bs-theme="light">
@@ -137,21 +137,27 @@
         <p class="contactanos-parrafo">Un profesional ira a tu domicilio</p>
       </div>
     </div>
-    <div class="contenedor-formularios">
-      <form class="formulario">
-        <label for="fname">Nombre:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Apellido:</label><br>
-        <input type="text" id="lname" name="lname">
-      </form>
-      <form>
-        <label for="fname">telefono</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">comuna</label><br>
-        <input type="text" id="lname" name="lname">
-      </form>
-      <button></button>
-
+    <div class="contenedor-formulariox">
+      <div id='wrapper'>
+        <form action='' class='form'>
+          <p class='field required half'>
+            <label class='label required' for='name'>nombre</label>
+            <input class='text-input' id='name' name='name' required type='text'>
+          </p>
+          <p class='field required half'>
+            <label class='label' for='email'>Correo electronico</label>
+            <input class='text-input' id='email' name='email' required type='email'>
+          </p>
+          <p class='field'>
+            <label class='label' for='message'>Mensaje</label>
+            <textarea class='textarea' cols='50' id='message' name='message' required rows='4'></textarea>
+          </p>
+          <p class='field'>
+            <input class='button' type='submit' value='enviar mensaje'>
+          </p>
+        </form>
+      </div>      
+    </div>
     </div>
     <div class="img-formulario">
       <img class="imgformulario" src="img/foto-formulario.webp" alt="">
@@ -232,3 +238,4 @@
   </section>
 </body>
 
+</html>
