@@ -1,79 +1,67 @@
-body {
+body{
     background-color: rgba(240, 240, 240, 0.616);
 }
-
-#nav-main {
+#nav-main{
     height: 100px;
 }
 
-.nav-link {
+.nav-link{
     display: flex;
     justify-content: end;
     color: rgb(0, 0, 0);
     padding: 10px 10px;
-    text-decoration: none;
+    text-decoration: none ;
     margin: 4px;
     font-style: italic;
     border-radius: 5px;
 
 }
-
-.nav-link1 {
+.nav-link1{
     background-color: #082e6e;
     text-decoration: none;
     color: aliceblue;
     padding: 15px 15px;
 }
-
-.logo1 {
+.logo1{
     width: 150px;
 }
 
-.enfermera2 {
+.enfermera2{
     display: flex;
     padding-left: 350px;
     margin-top: 80px;
 }
 
-.seccionnombres {
+.seccionnombres{
     margin-bottom: -500;
 }
-
-.opacity-75 {
+.opacity-75{
     margin-left: 500px;
 }
-
-.imgdirectorio {
+.imgdirectorio{
     margin-top: 100px;
     width: 100%;
 }
 
-.form-select {
-    margin: 50px;
-    margin-left: -10px;
-    padding-left: -50px;
+.form-select{
+margin: 50px;
+margin-left: -10px;
+padding-left: -50px;
 }
 
-.card-img-top {
-    height: 200px;
+.card-img-top{
+    height: 275px;
 }
-
-.img-abuela {
-    margin-top: 50px;
-    width: 700px;
+.img-abuela{
+    margin-top: -450px;
+    margin-left: 40px;
+    border-radius: 2em;
+    
 }
-
-.horarios {
-    margin-left: 220px;
+.titulo-enfermeria{
+    margin-left: 700px;
     margin-top: 100px;
-    margin-bottom: 10px;
-    width: 1100px;
-    height: 250px;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: #3a578a;
-    display: flex;
-    position: absolute;
-
+    color: #082e6e;
 }
 
 .color-contenedor {
