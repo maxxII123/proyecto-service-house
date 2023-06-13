@@ -244,37 +244,14 @@ body {
 /*inico tercera seccion (tarjetas)*/
 
 .titulo3rasecction {
-<<<<<<< HEAD
-    display: flex;
-    justify-content: center;
-=======
     float: inline-start;
     margin-left: 460px;
     margin-right: 100px;
     margin-top: 60px;
->>>>>>> 0d37be8ea68ddf51eaed786e6dc829c10575dddd
     color: #082e6e;
 }
 
 .texsec2 {
-<<<<<<< HEAD
-    display: flex;
-    justify-content: center;
-}
-
-.target1 {
-    margin-left: 100px;
-}
-
-.target2 {
-    margin-left: 600px;
-    margin-top: -320px;
-}
-
-.target3 {
-    margin-left: 1100px;
-    margin-top: -330px;
-=======
     margin-top: 50px;
     margin-left: 460px;
     margin-bottom: 100px;
@@ -283,7 +260,6 @@ body {
 .tarjet-hero {
     display: flex;
     justify-content: space-evenly;
->>>>>>> 0d37be8ea68ddf51eaed786e6dc829c10575dddd
 }
 
 
@@ -318,24 +294,17 @@ body {
     margin-left: 800px;
 }
 
-<<<<<<< HEAD
-.contenedor-formularios {
-    padding: 100px;
-=======
 .contenedor-formulariox {
     display: flex;
     justify-content: start;
-    margin-right: 700px;
->>>>>>> 0d37be8ea68ddf51eaed786e6dc829c10575dddd
+    margin-right: 900px;
 
 }
 
 .imgformulario {
-<<<<<<< HEAD
-    margin-top: -320px;
-=======
     display: flex;
-    margin-top: -500px;
+    margin-top: -600px;
+    margin-left: 300px;
 }
 
 
@@ -1231,7 +1200,6 @@ fieldset [id=sidebar] legend {
 
 svg path {
     fill: black;
->>>>>>> 0d37be8ea68ddf51eaed786e6dc829c10575dddd
 }
 
 /*fin 4ta seccion (formularios)*/
