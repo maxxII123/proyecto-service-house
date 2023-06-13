@@ -4,18 +4,18 @@ body {
 }
 
 #nav-main {
-    height: 125px;
+    height: 9.150805270863836vw;
 }
 
 .nav-link {
     display: flex;
     justify-content: end;
     color: rgb(0, 0, 0);
-    padding: 10px 10px;
+    padding: 0.7320644216691069vw 0.7320644216691069vw;
     text-decoration: none;
-    margin: 4px;
+    margin: 0.29282576866764276vw;
     font-style: italic;
-    border-radius: 5px;
+    border-radius: 0.36603221083455345vw;
 
 }
 
@@ -23,11 +23,11 @@ body {
     background-color: #082e6e;
     text-decoration: none;
     color: aliceblue;
-    padding: 15px 15px;
+    padding: 1.0980966325036603vw 1.0980966325036603vw;
 }
 
 .logo1 {
-    width: 150px;
+    width: 10.980966325036603vw;
 }
 
 .collapse navbar-collapse {
@@ -195,10 +195,10 @@ body {
 }
 
 .imagen2 {
-    margin: 80px;
-    width: 500px;
-    margin-left: 170px;
-    margin-top: -40px;
+    margin: 5.856515373352855vw;
+    width: 5.856515373352855vw;
+    margin-left: 5.856515373352855vw;
+    margin-top: -2.9282576866764276vw;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -245,16 +245,16 @@ body {
 
 .titulo3rasecction {
     float: inline-start;
-    margin-left: 460px;
-    margin-right: 100px;
-    margin-top: 60px;
+    margin-left: 33.674963396778914vw;
+    margin-right: 7.320644216691069vw;
+    margin-top:  4.392386530014641vw;
     color: #082e6e;
 }
 
 .texsec2 {
-    margin-top: 50px;
-    margin-left: 460px;
-    margin-bottom: 100px;
+    margin-top: 3.6603221083455346vw;
+    margin-left: 33.674963396778914vw;
+    margin-bottom: 7.320644216691069vw;
 }
 
 .tarjet-hero {
@@ -278,26 +278,26 @@ body {
 }
 
 .contactanos {
-    margin-right: 800px;
+    margin-right: 58.565153733528554vw;
     color: #082e6e;
-    font-size: 60px;
+    font-size:  4.392386530014641vw;
 }
 
 .contactanos-parrafo {
     color: #0a3888;
     font-size: xx-large;
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 1.4641288433382138vw;
+    margin-left: 2.1961932650073206vw;
 }
 
 .img-formulario {
-    margin-left: 500px;
+    margin-left: 36.603221083455345vw;
 }
 
 .contenedor-formulariox {
     display: flex;
     justify-content: start;
-    margin-right: 900px;
+    margin-right: 65.88579795021963vw;
 
 }
 
