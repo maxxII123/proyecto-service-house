@@ -215,13 +215,16 @@ body {
 }
 
 .boton22 {
-    color: #1148a7;
+    color: #20478b;
     background-color: #ffffff;
     transition: transform .2s;
     width: 130px;
     height: 50px;
     border: 1px black;
     text-align: center;
+    text-decoration: none;
+    margin-top: 1cm;
+    padding: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -263,7 +266,7 @@ body {
 
 .tarjet-hero {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: end;
 }
 
 .contenedor-tarjetas-items{

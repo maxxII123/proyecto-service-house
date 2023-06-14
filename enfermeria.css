@@ -24,39 +24,16 @@ body{
 }
 .logo1{
     width: 150px;
-}
+} 
+/*fin nav*/
 
-.enfermera2{
-    display: flex;
-    padding-left: 350px;
-    margin-top: 80px;
-}
-
-.seccionnombres{
-    margin-bottom: -500;
-}
-.opacity-75{
-    margin-left: 500px;
-}
 .imgdirectorio{
     margin-top: 100px;
     width: 100%;
 }
 
-.form-select{
-margin: 50px;
-margin-left: -10px;
-padding-left: -50px;
-}
-
-.card-img-top{
-    height: 275px;
-}
 .img-abuela{
-    margin-top: -450px;
-    margin-left: 40px;
-    border-radius: 2em;
-    
+
 }
 .titulo-enfermeria{
     margin-left: 700px;
@@ -64,13 +41,12 @@ padding-left: -50px;
     color: #082e6e;
 }
 
+
+/*horarios*/
 .color-contenedor {
     margin-top: 300px;
     background-color: rgba(212, 207, 201, 0.363);
     height: 600px;
-
-
-
 
 }
 
