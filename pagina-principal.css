@@ -1,24 +1,29 @@
+
 /*navbar primera seckcion*/
 body {
-    background-color: rgba(240, 240, 240, 0.616);
+    background-color: rgba(240, 240, 240, 0.616); 
+    padding: 0px;
+    margin: 0px;
 }
 
 #nav-main {
-    height: 9.150805270863836vw;
+    height: 20%;
+    margin: 0%;
 }
 
 .nav-link {
     display: flex;
     justify-content: end;
     color: rgb(0, 0, 0);
-    padding: 0.7320644216691069vw 0.7320644216691069vw;
     text-decoration: none;
     margin: 0.29282576866764276vw;
     font-style: italic;
     border-radius: 0.36603221083455345vw;
 
 }
-
+.navbar-brand{
+    width: 100%;
+}
 .nav-link1 {
     background-color: #082e6e;
     text-decoration: none;
@@ -27,7 +32,7 @@ body {
 }
 
 .logo1 {
-    width: 10.980966325036603vw;
+    width: 20%;
 }
 
 .collapse navbar-collapse {
@@ -58,7 +63,7 @@ body {
     -ms-transition: all 0.75s ease;
     -o-transition: all 0.75s ease;
     transition: all 0.75s ease;
-    height: 500px;
+    height: 100%;
     width: 300%;
 
 }
@@ -70,7 +75,7 @@ body {
 }
 
 .imagenes {
-    height: 500px;
+    height:  39.282576866764277vw;
     width: 100%;
 
 }
@@ -179,7 +184,7 @@ body {
 }
 
 #div-image-hero {
-    width: 40%;
+    width: 40%; 
 }
 
 #div-hero-text {
@@ -192,19 +197,19 @@ body {
 
 .m2sec {
     background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .imagen2 {
     margin: 5.856515373352855vw;
     width:  43.92386530014641vw;
-    margin-left: 5.856515373352855vw;
     margin-top: -2.9282576866764276vw;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .titulo {
-    margin-left: 10px;
-    margin-right: 150px;
+    margin-left: 0.7320644216691069vw;
     margin-top: 10px;
     color: #082e6e;
 }
@@ -228,14 +233,13 @@ body {
 .textosec2 {
     margin-bottom: 10px;
     margin-top: 50px;
-    margin-right: 150px;
 }
 
 .textosec22 {
     margin-bottom: 10px;
     margin-top: 40px;
-    margin-right: 150px
-}
+
+}   
 
 
 /*fin 2da seccion*/
@@ -262,7 +266,10 @@ body {
     justify-content: space-evenly;
 }
 
-
+.contenedor-tarjetas-items{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /*fin 3ra seccion*/
 
@@ -291,21 +298,17 @@ body {
 }
 
 .img-formulario {
-    margin-left: 36.603221083455345vw;
+    margin-left: 1vw
 }
 
 .contenedor-formulariox {
     display: flex;
     justify-content: start;
-    margin-right: 65.88579795021963vw;
+    align-content: start;
 
 }
 
-.imgformulario {
-    display: flex;
-    margin-top: -600px;
-    margin-left: 300px;
-}
+
 
 
 html {
@@ -1218,134 +1221,90 @@ svg path {
 
 /*HORARIOS*/
 .horarios {
-    margin-left: 350px;
+    margin: auto;
     margin-top: 100px;
-    margin-bottom: 10px;
-    width: 1100px;
+    width: 70%;
     height: 250px;
     border: 1px solid rgb(255, 255, 255);
     background-color: #3a578a;
-    display: inline-block;
-    justify-content: center;
-    position: absolute;
-
 }
 
 .color-contenedor {
-    margin-top: 300px;
+    margin-top: 0px;
     background-color: rgba(212, 207, 201, 0.363);
     height: 600px;
-    width: 1590px;
+    width: 100%; /*antes era 1590px*/
     display: inline-block;
-
 }
 
 .horarios-titulo {
+    margin: auto;
+    width: 100%;
     color: rgb(252, 252, 252);
     padding-top: 30px;
-    padding-left: 230px;
-    position: absolute;
+    text-align: center;
+    
 }
 
 .parrafo-horarios {
+    margin: auto;
     color: rgb(222, 227, 231);
-    padding-top: 120px;
-    margin-left: 300px;
-    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
 }
 
 .parrafo-horario {
     color: rgb(222, 227, 231);
-    padding-top: 170px;
-    margin-left: 275px;
-    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+}
+.logo-horarios-contenedor{
+    width: 15%;
+}
+.logo-horarios {
+
 }
 
-.logo-horarios {
-    position: relative;
-    width: 300px;
-    padding-bottom: 300px;
+
+.pie-pagina{
+    width: 100%;
+    background-color: #e9e5e5;
 }
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    color: #000000;
+    transition: all 300ms ease;
+} 
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(58, 86, 211);
+}
+.pie-pagina .grupo-2{
+    text-align: center;
+} 
 
 /*fin HORARIOS*/
-
-
-/* Slides */
-.mySlides {
-    display: none;
-    padding: 80px;
-    text-align: center;
-}
-
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    color: #888;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-    position: absolute;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-}
-
-/* The dot/bullet/indicator container */
-.dot-container {
-    text-align: center;
-    padding: 20px;
-    background: #ddd;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-/* Add a background color to the active dot/circle */
-.active,
-.dot:hover {
-    background-color: #717171;
-}
-
-/* Add an italic font style to all quotes */
-q {
-    font-style: italic;
-}
-
-/* Add a blue color to the author */
-.author {
-    color: cornflowerblue;
-}
-
-.section-testimonios {
-    margin-top: 100px;
-}
-
-.titulo-testimonios {
-    text-align: center;
-    color: #082e6e;
-}

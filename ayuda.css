@@ -1,5 +1,6 @@
 body{
     background-color: rgba(240, 240, 240, 0.616);
+    margin: 0;
 }
 #nav-main{
     height: 125px;
@@ -24,4 +25,19 @@ body{
 }
 .logo1{
     width: 150px;
+}
+
+/*seccion ayuda*/
+
+.contenedor-img-ayuda{
+    width: 1520px;
+    height: 400px;
+    background-color:rgb(243, 243, 243) ;
+    display: flex;
+    justify-content: center;
+    padding:  7.320644216691069vw;
+    margin-top:  8.784773060029282vw ;
+}
+.img-ayuda{
+    width: 1520px;
 }
