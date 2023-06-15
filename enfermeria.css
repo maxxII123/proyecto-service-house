@@ -27,52 +27,135 @@ body{
 } 
 /*fin nav*/
 
-.imgdirectorio{
-    margin-top: 100px;
-    width: 100%;
+#div-hero{
+    display: flex;
+    padding: 1%;
+    margin: 1%;
 }
-
-.img-abuela{
-
+#div-imagen-hero{
+    width: 40%;
+    margin: 1%;
+}
+#div-hero-text{
+    width: 40%;
+    margin-left: 10%;
+}
+#hero-button-div {
+    display: flex;
+}
+.boton22 {
+    color: #20478b;
+    background-color: #ffffff;
+    transition: transform .2s;
+    width: 130px;
+    height: 50px;
+    border: 1px black;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1cm;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.boton22:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 }
 .titulo-enfermeria{
-    margin-left: 700px;
-    margin-top: 100px;
     color: #082e6e;
 }
+.img-abuela{
+    border-radius: 5%;
+}
 
-
+.m2sec {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-wrap: wrap;
+}
 /*horarios*/
+.horarios {
+    margin: auto;
+    margin-top: 100px;
+    width: 70%;
+    height: 250px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #3a578a;
+}
+
 .color-contenedor {
-    margin-top: 300px;
+    margin-top: 0px;
     background-color: rgba(212, 207, 201, 0.363);
     height: 600px;
-
+    width: 100%; /*antes era 1590px*/
+    display: inline-block;
 }
 
 .horarios-titulo {
+    margin: auto;
+    width: 100%;
     color: rgb(252, 252, 252);
     padding-top: 30px;
-    padding-left: 230px;
-    position: absolute;
+    text-align: center;
+    
 }
 
 .parrafo-horarios {
+    margin: auto;
     color: rgb(222, 227, 231);
-    padding-top: 120px;
-    margin-left: 300px;
-    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
 }
 
 .parrafo-horario {
     color: rgb(222, 227, 231);
-    padding-top: 170px;
-    margin-left: 275px;
-    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+}
+.logo-horarios-contenedor{
+    width: 15%;
+}
+.logo-horarios {
+
 }
 
-.logo-horarios {
-    position: relative;
-    width: 300px;
-    padding-bottom: 300px;
+
+.pie-pagina{
+    width: 100%;
+    background-color: #e9e5e5;
 }
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    color: #000000;
+    transition: all 300ms ease;
+} 
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(58, 86, 211);
+}
+.pie-pagina .grupo-2{
+    text-align: center;
+} 
